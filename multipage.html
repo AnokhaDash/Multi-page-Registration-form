@@ -1,0 +1,77 @@
+<html>  
+<head>  
+	<link rel="stylesheet" href="stylemp.css">
+</head>  
+<body>  
+<form action='multipage1.html' name='redg_form' method = 'post'>  
+  <div class="container">  
+  <center>  <h1>Registration Form</h1> </center>
+      
+  <div class="row">
+	<label class="required">Name</label>  
+  	<div class="col-35">
+		<input type="text" name="firstname" placeholder= "First" class="control control-lg" required />
+		<input type="text" name="lastname" placeholder= "Last" class="control control-lg" required />
+	</div>
+  </div> 
+  <div class="row">
+	<label class="required">Date of Birth</label>  
+		<input type="date" name="dob" placeholder= "MM/DD/YYYY" class="control control-lg" required />
+  </div> 
+  <div class="row">
+	<label class="required">Email</label>  
+		<input type="text" name="email" class="control control-lg" required />
+  </div> 
+  <div class="row">
+	<label class="required">Father's name</label>  
+  	<div class="col-35">
+		<input type="text" name="firstname" placeholder= "First" class="control control-lg" required />
+		<input type="text" name="lastname" placeholder= "Last" class="control control-lg" required />
+	</div>
+  </div>
+  <div class="row">
+	<label class="required">Mother's name</label>  
+  	<div class="col-35">
+		<input type="text" name="firstname" placeholder= "First" class="control control-lg" required />
+		<input type="text" name="lastname" placeholder= "Last" class="control control-lg" required />
+	</div>
+  </div>  
+ 
+  <div>  
+	<label class="required">Gender </label><br>  
+		<input type="radio" value="Male" name="gender" checked > M 
+		<br>  
+		<input type="radio" value="Female" name="gender"> F    
+  </div>
+  <div>
+  <lable class="required">Nationality </lable>
+	<input type="text" name="nationality" class="control control-lg" required />
+  </div>
+  <div class="row">
+  <label>Home Address </lable><br>  
+	<textarea cols="80" rows="1" placeholder="Street Address" value="address" required></textarea> 
+	<br><br>
+	<div class="col-35">
+	<input type="text" placeholder="City"><select>  
+	<option value="Country">Country</option>  
+	<option value="INDIA">INDIA</option>  
+	<option value="AMERICA">AMERICA</option>  
+	<option value="BRAZIL">BRAZIL</option>  
+	<option value="UK">UK</option>  
+	<option value="RUSSIA">RUSSIA</option>  
+	<option value="PAKISTAN">PAKISTAN</option>  
+  </select>
+  </div>
+</div>
+  <label>Telephone-Home </label>  
+	<input type="text" name="country code" placeholder="### ### ####" size="10"/>
+  <label class="required">Telephone-Mobile </label>  
+	<input type="text" name="country code" placeholder="### ### ####" size="10"/> 
+   
+
+  
+    <button type="submit" class="registerbtn">Next</button> 
+   
+</form>  
+</body>  
+</html> 
